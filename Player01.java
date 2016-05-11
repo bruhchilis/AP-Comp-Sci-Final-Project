@@ -22,7 +22,7 @@ public class Player01
      ATK = 0;
      STR = 0;
      INT = 0;
-     CON = 0;
+     CON = 0;   
      AGL = 0;
      Presence = 0;
      BODY = 1;
@@ -39,7 +39,7 @@ public class Player01
      MIND += 5;
     }
     public int getDef(){
-        
+        return (int)(CON * equiped.GETDEF());
     }
     
  
