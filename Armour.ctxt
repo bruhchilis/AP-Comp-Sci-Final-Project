@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ Def
+comment0.target=Armour(java.lang.String,\ int)
+comment1.params=
+comment1.target=int\ GETDEF()
+comment2.params=
+comment2.target=java.lang.String\ GETNAME()
+numComments=3
