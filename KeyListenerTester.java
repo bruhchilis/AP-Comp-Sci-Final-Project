@@ -5,6 +5,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class KeyListenerTester extends JFrame implements KeyListener {
+    // This just shows how the keylistener works we still have to utilize it in character moition 
+    // But that should be pretty simple based on whats here(¯▼¯)
 
     //JLabel label;
 
