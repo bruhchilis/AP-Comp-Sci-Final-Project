@@ -3,6 +3,10 @@ import javax.swing.*;
 public class Player01{
  
  private String PlayerName;
+ private int X;
+ private int Y;
+ private int Width;
+ private int Height;
  private double Luck;
  private int HP;
  //private int ATK;
