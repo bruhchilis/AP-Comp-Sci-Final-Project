@@ -1,9 +1,12 @@
+import javax.swing.ImageIcon;
+import java.awt.*;
 public class Enemy
 {
     private int X;
     private int Y;
     private int Width;
     private int Height;
+    private ImageIcon()
     public void Enemy()
     { 
         X = 1;
