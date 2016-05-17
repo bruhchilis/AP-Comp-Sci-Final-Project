@@ -1,10 +1,11 @@
 import java.awt.*;
 import javax.swing.*;
+import java.awt.Image;
 import javax.swing.ImageIcon;
 public class Player01{
  
  private String PlayerName;
- private ImageIcon("mario.jpg")
+ private Image mario = new ImageIcon("mario.jpg");
  private int X;
  private int Y;
  private int Width;
@@ -25,8 +26,8 @@ public class Player01{
  private Weapon equiped02;
  private Level playerLevel;
  public Player01(){
-     Width = ImageIcon("mario.jpg").getIconWidth();
-     Height = ImageIcon("mario.jpg").getIconHeight();
+     Width = mario.getIconWidth();
+     Height = mario.getIconHeight();
      PlayerName =   JOptionPane.showInputDialog("Enter Character Name");
      playerLevel = new Level(20);
      
